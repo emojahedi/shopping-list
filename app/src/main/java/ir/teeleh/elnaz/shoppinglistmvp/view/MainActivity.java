@@ -12,11 +12,11 @@ import java.util.ArrayList;
 
 import ir.teeleh.elnaz.shoppinglistmvp.R;
 import ir.teeleh.elnaz.shoppinglistmvp.adapter.ShoppingListAdapter;
-import ir.teeleh.elnaz.shoppinglistmvp.interfaces.contracts;
+import ir.teeleh.elnaz.shoppinglistmvp.interfaces.mvpContracts;
 import ir.teeleh.elnaz.shoppinglistmvp.model.Product;
 import ir.teeleh.elnaz.shoppinglistmvp.presenter.ProductPresenter;
 
-public class MainActivity extends AppCompatActivity implements contracts.shoppingListView {
+public class MainActivity extends AppCompatActivity implements mvpContracts.shoppingListView {
 
     ProductPresenter mProductPresenter;
     Button mAddButton;

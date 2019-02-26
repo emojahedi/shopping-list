@@ -1,17 +1,17 @@
 package ir.teeleh.elnaz.shoppinglistmvp.presenter;
 
-import ir.teeleh.elnaz.shoppinglistmvp.interfaces.contracts;
+import ir.teeleh.elnaz.shoppinglistmvp.interfaces.mvpContracts;
 import ir.teeleh.elnaz.shoppinglistmvp.model.Product;
 import ir.teeleh.elnaz.shoppinglistmvp.model.ProductsList;
 
-public class ProductPresenter implements contracts.productPresenter {
+public class ProductPresenter implements mvpContracts.productPresenter {
 
     private Product mProduct;
     private ProductsList mProductsList;
-    private contracts.shoppingListView mView;
+    private mvpContracts.shoppingListView mView;
 
 
-    public ProductPresenter(contracts.shoppingListView view) {
+    public ProductPresenter(mvpContracts.shoppingListView view) {
         mView = view;
     }
 

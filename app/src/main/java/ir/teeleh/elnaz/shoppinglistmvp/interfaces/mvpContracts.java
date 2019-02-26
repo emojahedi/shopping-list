@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import ir.teeleh.elnaz.shoppinglistmvp.model.Product;
 
-public interface contracts {
+public interface mvpContracts {
     interface shoppingListView {
         void updateList(ArrayList<Product> products);
 
